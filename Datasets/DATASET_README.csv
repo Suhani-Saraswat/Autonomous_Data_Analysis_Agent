@@ -1,0 +1,9 @@
+Item,Description,Value
+Fixed dataset,"Repeatable benchmark for testing profiling, cleaning, analysis, charts and report generation.","10,050"
+Live dataset,Simulated continuously changing transaction stream for testing re-analysis and monitoring.,"10,050"
+Data quality issues,"Both contain missing values, exact duplicates, categorical inconsistencies and numerical outliers.",Intentional
+Main measures,"Sales, Quantity, Discount, Profit",Numeric
+Time fields,"Order_Date, Ship_Date, Last_Updated",Date/time
+Agent tasks,"Profiling, anomaly detection, cleaning, statistical analysis, visualization, insight generation, what-if analysis",Recommended
+Live refresh,Run generate_live_batch.py to append 250 new records to the live CSV.,250 records/run
+Seed,Fixed dataset generation uses seed 2026; live refresh intentionally changes each run.,2026 / random

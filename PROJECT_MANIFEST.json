@@ -1,0 +1,11 @@
+{
+  "project": "Autonomous Data Analysis Agent",
+  "records": {
+    "fixed": 10050,
+    "live": 10050
+  },
+  "frontend": "React + Vite",
+  "backend": "FastAPI + Pandas",
+  "architecture": "Planner -> Code Gen -> Execution -> Self-Correct -> Synthesis",
+  "dataset_folder": "datasets/"
+}
